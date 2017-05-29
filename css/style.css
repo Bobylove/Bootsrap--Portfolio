@@ -1,0 +1,131 @@
+body,html {
+    padding: 0;
+    margin: 0;
+}
+
+a,a:hover {
+    text-decoration:none;
+}
+
+/*header*/
+.header {
+    background-color: #3498DB;
+    height: 70px;
+    line-height: 70px;
+}
+.logo{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    float: left;
+}
+.container-fluid{
+    padding: 0px;
+}
+.menu{
+    float: right;
+}
+.menu a {
+    color: #ffffff;
+    margin-right: 20px;
+}
+.menu a:hover{
+
+}
+
+/*banniere*/
+.banner {
+    width: 100%;
+    max-width: 100%;
+}
+.ban{
+    width: 100%;
+    max-width: 100%;
+}
+.ban img {
+    width: 100%;
+    max-width: 100%;
+}
+.inner-banner{
+    position: absolute;
+    top:40%;
+    width: 100%;
+    text-align: center;
+}
+
+.inner-banner h1 {
+    color:#ffffff;
+    text-shadow:1px 1px 20px #000000;
+
+}
+.inner-banner .btn-custom {
+    background-color: #3498DB;
+    color: #ffffff;
+}
+.inner-banner .btn-custom:hover {
+    background-color: #2C3E50;
+}
+
+/*about*/
+.about article{
+
+    margin-top: 5% ;
+    margin-bottom: 10%;
+}
+.about{
+    text-align: center;
+}
+.about article h2 {
+    text-align: center;
+}
+
+/*portfolio*/
+.portfolio{
+    background-color: #eeeeee;
+}
+
+#portfolio{
+    text-align: center;
+}
+
+.portfolio .item-folio {
+    height: 280px;
+    background-color: #3498DB;
+}
+
+/*contact*/
+.footer {
+    background-color:#2C3E50 ;
+}
+#contact {
+    text-align: center;
+    color: #ffffff;
+
+}
+.formulaireContact{
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+
+}
+input[type=text]{
+    height:50px;
+    width: 500px;
+    border:none;
+}
+
+input[type=email]{
+    height:50px;
+    width: 500px;
+    border:none;
+
+}
+input {
+    margin-bottom: 20px;
+}
+textarea{
+    width: 500px;
+    height:200px;
+    resize: vertical;
+}
